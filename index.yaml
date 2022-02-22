@@ -51,7 +51,7 @@ entries:
     - https://github.com/sorry-cypress/sorry-cypress
     type: application
     urls:
-    - https://github.com/sorry-cypress/charts/releases/download/sorry-cypress-1.4.4/sorry-cypress-1.4.4.tgz
+    - https://github.com/romif/charts/releases/download/sorry-cypress-1.4.4/sorry-cypress-1.4.4.tgz
     version: 1.4.4
   - apiVersion: v2
     appVersion: 2.1.0
