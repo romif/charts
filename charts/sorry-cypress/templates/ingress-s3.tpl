@@ -1,6 +1,6 @@
 {{- if .Values.s3.ingress.enabled -}}
 {{- $fullName := include "sorry-cypress-helm.fullname" . -}}
-apiVersion: networking.k8s.io/v1
+apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   name: {{ $fullName }}-s3
